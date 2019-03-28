@@ -1,4 +1,4 @@
-# ``newbot`` ~ command line command
+# ``newbot`` ~ command line tool
 <strong>A command line tool to create an instant bot folder</strong>
 
 
