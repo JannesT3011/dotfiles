@@ -1,7 +1,13 @@
 @echo off
 
+ IF "%1" == "" (
+        echo "Please enter a valid bot name"
+        break
+        exit
+    ) ELSE (
+        goto create
+    )
 
-goto create
 
 :create 
 :: creates the files and folders
