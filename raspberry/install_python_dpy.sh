@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# check if python is installed
+# check if python is installed ~ maybe this doesn't work 
 if command -v python3 &>/dev/null; then
     install_dpy
 else
