@@ -10,11 +10,11 @@ fi
 function install_python() {
     # install python
     sudo apt-get update -y
-    sudo apt-get upgrade
-    sudo apt-get dist-upgrade
+    sudo apt-get upgrade -y
+    sudo apt-get dist-upgrade -y
     sudo apt-get install libssl-dev -y
     sudo apt-get install libffi-dev -y
-    sudp apt-get install libsqlite3-dev
+    sudo apt-get install libsqlite3-dev
     wget https://www.python.org/ftp/python/3.7.2/Python-3.7.2.tgz
     tar xzvf Python-3.7.2.tgz
     cd Python-3.7.2/
